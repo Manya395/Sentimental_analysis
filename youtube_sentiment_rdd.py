@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 nltk.download("stopwords")
 
 # ---- Your real API key here ----
-API_KEY = "AIzaSyA729tWAfkk6HHLBiarTvwkVHVzfREg06Y"
+API_KEY = "Your google API Key"
 
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
